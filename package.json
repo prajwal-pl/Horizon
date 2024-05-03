@@ -1,0 +1,25 @@
+{
+  "name": "horizon",
+  "version": "1.0.0",
+  "description": "\"# Horizon\"",
+  "main": "server.js",
+  "scripts": {
+    "server": "npx tsc && nodemon server/dist/server.js",
+    "start": "node server/dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "prisma": "^5.13.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
